@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #3c6786;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+    color: white;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.navbar-item {
+    margin-right: 25px;
+}
+.header {
+    background-image: url("landing-page2.jpg");
+    height: 565px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    color: white;
+}
+.header h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+} 
+
+.header p {
+    font-size: 20px;
+}
+.title-about {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    color: #67859b;
+}
+.about {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+.about .about-img {
+    width: 50%;
+}
+.about .about-me {
+    width: 50%;
+    padding: 0px 100px;
+    font-size: 25px;
+    text-align: right;
+}
+.about .about-img img {
+    width: 700px;
+}
+.copyright {
+    background-color: #3c6786;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
