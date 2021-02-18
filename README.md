@@ -1,3 +1,3 @@
 # belajarLandingPageWRI
-live coding landing page with wri <br>
+live coding landing page with WRI <br>
 #edisi_belajar_with_WRI
